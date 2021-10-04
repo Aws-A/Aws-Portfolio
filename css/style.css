@@ -1,0 +1,402 @@
+.navigation {
+             display: flex;
+             justify-content: space-between;
+             height: 100px;
+
+}
+
+.logo {
+    width: 23%;
+    height: 750px;
+    padding: 1%;
+    text-align: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+     display: flex;
+}
+
+.dropdown {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #0071a1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.resumeButton {
+       height: 50px;
+       width:  200px;
+       background-color: #0071a1;
+       color: white;
+       font-family: Inter;
+       border-radius: 5px;
+       box-shadow: none;
+       border: none;
+       margin-left: 25%;
+       margin-top: 10px;
+       font-size: 15px;
+}
+
+ .resumeButton:hover{
+     background-color: #02498A;
+}
+
+ .resumeButton:click{
+     background-color: #052340;
+}
+
+ a:hover{
+     color: #02498A;
+}
+
+
+
+.herolmg {
+          display: flex;
+          height: 400px;
+          padding: 25px;   
+          justify-content: space-around;      
+}
+
+#categoryGrid {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "homepage survey account"
+  "homepage matches chat"
+  ;
+}
+
+#homepage {
+  grid-area: homepage;
+  background-image: url("../images/homepage.png");
+
+}
+#survey {
+  grid-area: survey;
+  background-image: url("../images/survey.png");
+}
+
+#account {
+  grid-area: account;
+  background-image: url("../images/account.png");
+}
+
+#matches {
+  grid-area: matches;
+  background-image: url("../images/matches.png");
+}
+
+#chat {
+  grid-area: chat;
+  background-image: url("../images/chat.png");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+#categoryGrid2 {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "homepageAlz about volunteer"
+  "homepageAlz donate pay"
+  ;
+}
+
+#homepageAlz {
+  grid-area: homepageAlz;
+  background-image: url("../images/homepageAlz.png");
+
+}
+#about {
+  grid-area: about;
+  background-image: url("../images/about.png");
+}
+
+#volunteer {
+  grid-area: volunteer;
+  background-image: url("../images/Volunteer.png");
+}
+
+#donate {
+  grid-area: donate;
+  background-image: url("../images/Donate.png");
+}
+
+#pay {
+  grid-area: pay;
+  background-image: url("../images/pay.png");
+}
+
+#categoryGrid3 {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "main-page landing-screen offers"
+  "main-page rent availability"
+  ;
+}
+
+#main-page  {
+  grid-area: main-page ;
+  background-image: url("../images/main-page.png");
+
+}
+#landing-screen {
+  grid-area: landing-screen;
+  background-image: url("../images/landing-screen.png");
+}
+
+#offers {
+  grid-area: offers;
+  background-image: url("../images/offers.png");
+}
+
+#rent {
+  grid-area: rent;
+  background-image: url("../images/rent.png");
+}
+
+#availability {
+  grid-area: availability;
+  background-image: url("../images/availability.png");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.appsImg {
+           margin-left: 33%;
+}
+.text {
+       font-family: Inter;
+       width: 520px;
+
+}
+.apps{
+          display: flex;
+          background-color: white;  
+          justify-content: center;
+}
+
+.mySkills {
+          height: 450px;  
+          justify-content: space-around;
+
+}
+
+.illus {
+          display: flex;  
+          justify-content: space-around;
+}
+
+.card {   display: flex;
+          width: 300px;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+}
+
+
+nav a {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #0071a1;
+}
+
+body {
+      margin: 0px;
+      width: 100%;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Lato;
+    margin-left: 60px;
+}
+
+h3{
+    margin-left: 60px;
+    font-family: inter;
+}
+
+li {
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 0px;
+    justify-content: top;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Lato;
+    padding: 5px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Lato;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+h6 a{
+     color: #0071a1;
+     font-family: inter;
+}
+
+hr {
+    height: 1px;
+    background-color: #d8edfb;
+    border: none;
+}
+
+body a{
+       color: #0071a1 ;
+}
+
+body a:hover{
+       color: #02498A;
+}
+
+body a:click{
+       color: #052340;
+}
+.title {
+        background-color: #d8edfb;
+        height: 60px;
+}
+
+.Projects h3 {
+             color: #0071a1;
+             font-size: 40px;
+             font-family: lato;
+             text-align: center;
+             margin: 100px 0px 25px 0px;
+}
+
+.Projects h4 {
+             color: black;
+             font-size: 22px regular;
+             font-family: inter;
+             text-align: center;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #0071a1;
+  text-align: center;
+  font-family: inter;
+}
+
+.Mob {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+.Mail {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+.Soc {
+      display: flex;
+      justify-content: center;
+}
+
+footer {
+        background-color: #0071a1;
+        margin: 100px 0px 0px 0px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+        color: white;
+}
+
+.linkS {
+        margin: 1%;
+}
+
+.copyright {
+         background-color: #013c51;
+         height: 60px;
+         color: white;
+         text-align: center;
+         font-family: Lato;
+         padding: 30px 0px 0px 0px;
+}
+

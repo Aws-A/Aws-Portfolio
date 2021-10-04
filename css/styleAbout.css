@@ -1,0 +1,164 @@
+.navigation {
+             display: flex;
+             justify-content: space-between;
+             height: 100px;
+
+}
+
+.logo {
+    width: 23%;
+    height: 750px;
+    padding: 1%;
+    text-align: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+     display: flex;
+}
+
+ a:hover{
+     color: #02498A;
+}
+
+.herolmg1 {
+          height: 350px;
+          padding: 25px;   
+          justify-content: space-around;      
+}
+
+.herolmg2 {
+          height: 250px;
+          padding: 25px;   
+          justify-content: space-around;      
+}
+
+.herolmg3 {
+          height: 250px;
+          padding: 25px;   
+          justify-content: space-around;      
+}
+
+.text {
+       font-family: Inter;
+       width: 520px;
+
+}
+
+
+nav a {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #0071a1;
+}
+
+body {
+      margin: 0px;
+      width: 100%}
+
+
+p {
+   font-size: 18px;
+   font-family: inter;
+   margin-top: 0px;
+   justify-content: top;
+   margin-left: 55px;
+}
+
+.para {
+       margin-top: 20px;
+}
+
+
+.hero {
+      margin-right: 55px;
+}
+h1 {
+    font-size: 45px;
+    font-family: Lato;
+    margin-left: 60px;
+}
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Lato;
+    padding: 5px;
+}
+
+h3{
+    margin-left: 60px;
+    font-family: inter;
+}
+
+h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Lato;
+    color: #0071a1;
+}
+
+h6 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+h6 a{
+     color: #0071a1;
+     font-family: inter;
+}
+
+hr {
+    height: 1px;
+    background-color: #d8edfb;
+    border: none;
+}
+
+Ul {
+    margin-left: 50px;
+}
+
+.Mob {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+.Mail {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+footer {
+        background-color: #0071a1;
+        margin: 100px 0px 0px 0px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+        color: white;
+}
+
+footer h5{
+          color: white;
+}
+
+.linkS {
+        margin: 1%;
+}
+
+.copyright {
+         background-color: #013c51;
+         height: 60px;
+         color: white;
+         text-align: center;
+         font-family: Lato;
+         padding: 30px 0px 0px 0px;
+}
+

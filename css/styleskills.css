@@ -1,0 +1,356 @@
+.navigation {
+             display: flex;
+             justify-content: space-between;
+             height: 100px;
+
+}
+
+.logo {
+    width: 23%;
+    height: 750px;
+    padding: 1%;
+    text-align: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+     display: flex;
+}
+
+.dropdown {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #0071a1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ a:hover{
+     color: #02498A;
+}
+
+
+
+.herolmg {
+          display: flex;
+          height: 400px;
+          padding: 25px;   
+          justify-content: space-around;      
+}
+
+#categoryGrid {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "Port Alz CSA"
+  "TS TS Tz"
+  ;
+}
+
+#Port {
+  grid-area: Port;
+  background-image: url("../images/protoPort.png");
+
+}
+#Alz {
+  grid-area: Alz;
+  background-image: url("../images/protoAlz.png");
+}
+
+#CSA {
+  grid-area: CSA;
+  background-image: url("../images/protoCSA.png");
+}
+
+#TS {
+  grid-area: TS;
+  background-image: url("../images/protoTS3.png");
+}
+
+#TS {
+  grid-area: TS;
+  background-image: url("../images/protoTS3.png");
+}
+
+#Tz {
+  grid-area: Tz;
+  background-image: url("../images/protoTz.png");
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+#categoryGrid2 {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "iKis iKis2 iAlz"
+  "iAlz2 iTS iTS2"
+  ;
+}
+
+#iKis {
+  grid-area: iKis;
+  background-image: url("../images/brainstormingKis.png");
+
+}
+
+#iKis2 {
+  grid-area: iKis2;
+  background-image: url("../images/featuresKis.png");
+
+}
+
+#iAlz {
+  grid-area: iAlz;
+  background-image: url("../images/brainstormingAlz.png");
+}
+
+#iAlz2 {
+  grid-area: iAlz2;
+  background-image: url("../images/featuresAlz.png");
+}
+
+#iTS {
+  grid-area: iTS;
+  background-image: url("../images/brainstormingTS.png");
+}
+
+#iTS2 {
+  grid-area: iTS2;
+  background-image: url("../images/featuresTS.png");
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+
+#categoryGrid3 {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "rKis rKis2 rAlz"
+  "rAlz2 rTS rTS2"
+  ;
+}
+
+#rKis {
+  grid-area: rKis;
+  background-image: url("../images/Interviews.png");
+
+}
+
+#rKis2 {
+  grid-area: rKis2;
+  background-image: url("../images/User_Journey.png");
+
+}
+
+#rAlz {
+  grid-area: rAlz;
+  background-image: url("../images/interviewAlz.png");
+}
+
+#rAlz2 {
+  grid-area: rAlz2;
+  background-image: url("../images/storyboard.png");
+}
+
+#rTS {
+  grid-area: rTS;
+  background-image: url("../images/Empathy-Map.png");
+}
+
+#rTS2 {
+  grid-area: rTS2;
+  background-image: url("../images/competitorAnalysisTS.png");
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.card {   display: flex;
+          width: 300px;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+}
+
+
+nav a {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #0071a1;
+}
+
+body {
+      margin: 0px;
+      width: 100%;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Lato;
+    margin-left: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Lato;
+    padding: 5px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Lato;
+}
+
+hr {
+    height: 1px;
+    background-color: #d8edfb;
+    border: none;
+}
+
+body a{
+       color: #0071a1 ;
+}
+
+body a:hover{
+       color: #02498A;
+}
+
+body a:click{
+       color: #052340;
+}
+.title {
+        background-color: #d8edfb;
+        height: 60px;
+}
+
+
+.para {
+       font-family: inter;
+       font-size: 18px;
+       margin-top: 20px;
+}
+
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #0071a1;
+  text-align: center;
+  font-family: inter;
+}
+
+
+footer {
+        background-color: #0071a1;
+        margin: 100px 0px 0px 0px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+        color: white;
+}
+
+.linkS {
+        margin: 1%;
+}
+
+.copyright {
+         background-color: #013c51;
+         height: 60px;
+         color: white;
+         text-align: center;
+         font-family: Lato;
+         padding: 30px 0px 0px 0px;
+}
+
+.Mob {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+.Mail {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+.Soc {
+      display: flex;
+      justify-content: center;
+}

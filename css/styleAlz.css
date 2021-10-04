@@ -1,0 +1,274 @@
+.navigation {
+             display: flex;
+             justify-content: space-between;
+             height: 100px;
+
+}
+
+.logo {
+    width: 23%;
+    height: 750px;
+    padding: 1%;
+    text-align: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+     display: flex;
+}
+
+ a:hover{
+     color: #02498A;
+}
+
+.dropdown {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #0071a1;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.herolmg {
+          display: flex;
+          height: 400px;
+          padding: 25px;   
+          justify-content: space-around;      
+}
+
+#categoryGrid {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "moodBoard features siteMap"
+  "moodBoard userFlow userFlow"
+  ;
+}
+
+#moodBoard {
+  grid-area: moodBoard;
+  background-image: url("../images/moodBoard.png");
+
+}
+#features {
+  grid-area: features;
+  background-image: url("../images/features.png");
+}
+
+#siteMap {
+  grid-area: siteMap;
+  background-image: url("../images/siteMap.png");
+}
+
+#userFlow {
+  grid-area: userFlow;
+  background-image: url("../images/userFlow.png");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.text {
+       font-family: Inter;
+       width: 520px;
+
+}
+
+.sec {
+      display: flex;
+      justify-content: center;
+}
+.card {   display: flex;
+          width: 300px;
+          flex-direction: column;
+          text-align: center;
+          padding: 3%;
+}
+
+.secSpecific {
+       display: flex;
+       justify-content: center;
+}
+
+.paraSpecific {
+               text-align: left;
+               margin: 40px;
+}
+
+nav a {
+    padding: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #0071a1;
+}
+
+body {
+      margin: 0px;
+      width: 100%}
+
+
+p {
+   font-size: 18px;
+   font-family: inter;
+   margin-top: 0px;
+   justify-content: top;
+   margin-left: 55px;
+}
+
+.para {
+       margin-top: 20px;
+       text-align: center;
+       margin-left: 0px;
+}
+
+
+.hero {
+      margin-right: 55px;
+}
+h1 {
+    font-size: 45px;
+    font-family: Lato;
+    margin-left: 60px;
+    color: #0071a1;
+}
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Lato;
+    padding: 5px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Lato;
+    color: #0071a1;
+}
+
+hr {
+    height: 1px;
+    background-color: #d8edfb;
+    border: none;
+}
+
+.title {
+        background-color: #d8edfb;
+        height: 60px;
+}
+
+.Projects h3 {
+             color: #0071a1;
+             font-size: 40px;
+             font-family: lato;
+             text-align: center;
+             margin: 100px 0px 25px 0px;
+}
+
+.Projects h4 {
+             color: black;
+             font-size: 22px regular;
+             font-family: inter;
+             text-align: center;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #0071a1;
+  text-align: center;
+  font-family: inter;
+}
+
+.Mob {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+.Mail {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+}
+
+.Soc {
+      display: flex;
+      justify-content: center;
+}
+
+footer {
+        background-color: #0071a1;
+        margin: 100px 0px 0px 0px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+        color: white;
+}
+
+footer h5{
+          color: white;
+}
+
+.linkS {
+        margin: 1%;
+}
+
+.copyright {
+         background-color: #013c51;
+         height: 60px;
+         color: white;
+         text-align: center;
+         font-family: Lato;
+         padding: 30px 0px 0px 0px;
+}
+

@@ -128,7 +128,10 @@ nav {
           text-align: center;
           padding: 3%;
 }
-
+.card p{
+        text-align: center;
+        margin-left: 0px;
+}
 
 nav a {
     padding: 50px;
@@ -153,6 +156,7 @@ p {
 .para {
        margin-top: 20px;
        text-align: center;
+       margin-left: 0px;
 }
 
 

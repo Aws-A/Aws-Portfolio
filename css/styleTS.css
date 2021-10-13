@@ -159,8 +159,15 @@ p {
    margin-left: 55px;
 }
 
+.card p{
+        text-align: center;
+        margin-left: 0px;
+}
+
+
 .para {
        margin-top: 20px;
+       margin-left: 0px;
 }
 
 

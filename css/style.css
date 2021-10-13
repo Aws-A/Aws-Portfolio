@@ -360,16 +360,25 @@ body a:click{
   font-family: inter;
 }
 
-.Mob {
-      display: flex;
-      justify-content: center;
-      margin-left: -5%;
-}
 
 .Mail {
       display: flex;
       justify-content: center;
       margin-left: -5%;
+      margin-bottom: -30px;
+}
+
+.Mob {
+      display: flex;
+      justify-content: center;
+}
+
+.iMob{
+      margin-left: -120px; 
+}
+
+.hMob {
+       margin-left: 45px;
 }
 
 .Soc {
@@ -388,7 +397,7 @@ footer {
 }
 
 .linkS {
-        margin: 1%;
+        margin: 0.4%;
 }
 
 .copyright {

@@ -147,6 +147,11 @@ h3{
     font-family: inter;
 }
 
+h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Lato;
+}
 
 hr {
     height: 1px;
@@ -234,6 +239,31 @@ body a:click{
 }
 
 
+.Mail {
+      display: flex;
+      justify-content: center;
+      margin-left: -5%;
+      margin-bottom: -30px;
+}
+
+.Mob {
+      display: flex;
+      justify-content: center;
+}
+
+.iMob{
+      margin-left: -120px; 
+}
+
+.hMob {
+       margin-left: 45px;
+}
+
+.Soc {
+      display: flex;
+      justify-content: center;
+}
+
 footer {
         background-color: #0071a1;
         margin: 100px 0px 0px 0px;
@@ -245,7 +275,7 @@ footer {
 }
 
 .linkS {
-        margin: 1%;
+        margin: 0.4%;
 }
 
 .copyright {
@@ -255,21 +285,4 @@ footer {
          text-align: center;
          font-family: Lato;
          padding: 30px 0px 0px 0px;
-}
-
-.Mob {
-      display: flex;
-      justify-content: center;
-      margin-left: -5%;
-}
-
-.Mail {
-      display: flex;
-      justify-content: center;
-      margin-left: -5%;
-}
-
-.Soc {
-      display: flex;
-      justify-content: center;
 }

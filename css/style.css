@@ -360,6 +360,15 @@ body a:click{
   font-family: inter;
 }
 
+footer {
+        background-color: #0071a1;
+        margin: 100px 0px 0px 0px;
+        padding: 50px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-align: center;
+        color: white;
+}
 
 .Mail {
       display: flex;
@@ -384,16 +393,6 @@ body a:click{
 .Soc {
       display: flex;
       justify-content: center;
-}
-
-footer {
-        background-color: #0071a1;
-        margin: 100px 0px 0px 0px;
-        padding: 50px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        text-align: center;
-        color: white;
 }
 
 .linkS {

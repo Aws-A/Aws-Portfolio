@@ -193,7 +193,7 @@ nav {
 
 #rKis {
   grid-area: rKis;
-  background-image: url("../images/Interviews.png");
+  background-image: url("../images/inter.png");
 
 }
 
@@ -221,6 +221,58 @@ nav {
 #rTS2 {
   grid-area: rTS2;
   background-image: url("../images/competitorAnalysisTS.png");
+}
+
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+#categoryGrid5 {
+  margin: 25px 5%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "uKis uKis2 uAlz"
+  "uAlz2 uSp uPr"
+  ;
+}
+
+#uKis {
+  grid-area: uKis;
+  background-image: url("../images/moadBoard.png");
+
+}
+#uKis2 {
+  grid-area: uKis2;
+  background-image: url("../images/StyleGuideK.png");
+}
+
+#uAlz {
+  grid-area: uAlz;
+  background-image: url("../images/StyleTileALZ.png");
+}
+
+#uAlz2 {
+  grid-area: TS;
+  background-image: url("../images/StyleGuideALZ.png");
+}
+
+#uSp {
+  grid-area: TS;
+  background-image: url("../images/inspireSpace.png");
+}
+
+#uPr {
+  grid-area: Tz;
+  background-image: url("../images/protId.png");
 }
 
 

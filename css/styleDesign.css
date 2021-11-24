@@ -171,10 +171,6 @@ body a:hover{
 body a:click{
        color: #052340;
 }
-.title {
-        background-color: #d8edfb;
-        height: 60px;
-}
 
 .herolmg1 h3 {
              color: #0071a1;
@@ -200,6 +196,13 @@ body a:click{
              margin: 20px 0px 70px 50px;
 }
 
+.title {
+        color: #0071a1;
+        font-size: 40px;
+        font-family: lato;
+        text-align: center;
+        margin: 0px 0px 0px -60px;
+}
 
 .heading {
   background-color: rgba(0,0,0,0.7);
